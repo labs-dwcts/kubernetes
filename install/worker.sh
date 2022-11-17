@@ -1,6 +1,6 @@
 # OS : Ubuntu Server 20.04 LTS
 # Kernel : 5.4.0-132-generic
-# Kubernetes Master Node
+# Kubernetes Worker Node
 # Kubernetes Version : 1.25.4
 
 #!/usr/bin/env bash
