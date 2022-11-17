@@ -167,8 +167,5 @@ kubectl get pods --all-namespaces
 # echo "source <(kubectl completion bash)" >> ~/.bashrc
 
 
-# install dashboard
-# kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.3.1/aio/deploy/recommended.yaml
-
 # install helm
 # curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
