@@ -134,3 +134,7 @@ sudo systemctl restart docker
 
 # kubernetes master-node install complete
 echo "Kubernetes worker-node install complete"
+
+
+# install helm
+curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | sudo bash

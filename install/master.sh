@@ -165,3 +165,10 @@ kubectl get pods --all-namespaces
 # To tab autocomplete kubectl commands in bash, run:
 # source <(kubectl completion bash)
 # echo "source <(kubectl completion bash)" >> ~/.bashrc
+
+
+# install dashboard
+# kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.3.1/aio/deploy/recommended.yaml
+
+# install helm
+# curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
