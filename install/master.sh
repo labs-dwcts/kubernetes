@@ -31,10 +31,9 @@ sudo apt-get install -y \
     docker-ce docker-ce-cli containerd.io
 
 # add user permissions
-sudo usermod -a -G docker $USER
-newgrp docker << END
-echo 'Ok. running as group $(id -gn)'
-END
+# sudo usermod -a -G docker $USER
+# newgrp docker
+
 
 # check docker version
 sudo docker version
