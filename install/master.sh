@@ -144,7 +144,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 
 # kubeadm token save
-sudo kubeadm token create --print-join-command > ~/.k8s/kubeadm-join.txt
+sudo kubeadm token create --print-join-command > ~/.kube/kubeadm-join.txt
 
 
 # kubernetes master-node install complete
