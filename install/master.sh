@@ -138,19 +138,18 @@ kubeadm reset --force
 sudo kubeadm init
 
 
+# add kube command to all users
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+
 # kubeadm token save
-mkdir ~/.k8s
 sudo kubeadm token create --print-join-command > ~/.k8s/kubeadm-join.txt
 
 
 # kubernetes master-node install complete
 echo "Kubernetes master-node install complete"
-
-
-# add kube command to all users
-mkdir -p $HOME/.kube
-sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 
 # install add-on pod network
@@ -164,5 +163,5 @@ kubectl get pods --all-namespaces
 
 
 # To tab autocomplete kubectl commands in bash, run:
-source <(kubectl completion bash)
-echo "source <(kubectl completion bash)" >> ~/.bashrc
+# source <(kubectl completion bash)
+# echo "source <(kubectl completion bash)" >> ~/.bashrc
