@@ -149,8 +149,9 @@ sudo kubeadm token create --print-join-command > ~/.kube/kubeadm-join.txt
 
 
 # kubernetes master-node install complete
+echo "################################################################################"
 echo "Kubernetes master-node install complete."
-
+echo "################################################################################"
 
 # install add-on pod network
 sudo kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
@@ -158,8 +159,11 @@ sudo kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl v
 
 # check node status
 # kubectl get nodes
+echo "################################################################################"
 kubectl get nodes -o wide
+echo "################################################################################"
 kubectl get pods --all-namespaces
+echo "################################################################################"
 
 
 # To tab autocomplete kubectl commands in bash, run:
