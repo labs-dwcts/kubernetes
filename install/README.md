@@ -36,7 +36,7 @@ curl -L https://raw.githubusercontent.com/labs-dwcts/kubernetes/main/install/wor
 
 Run this on any machine you wish to join an existing cluster.
 
-master node
+Check the `kubeadm-join.txt` file on master node.
 
 ```
 cat ~/.kube/kubeadm-join.txt
