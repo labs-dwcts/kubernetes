@@ -2,7 +2,7 @@
 
 ## master node
 
-Use `wget` or `curl`
+You can install it using `wget` or `curl` .
 
 ### wget
 
@@ -18,7 +18,7 @@ curl -L https://raw.githubusercontent.com/labs-dwcts/kubernetes/main/install/mas
 
 ## worker node
 
-Use `wget` or `curl`
+You can install it using `wget` or `curl` .
 
 ### wget
 
