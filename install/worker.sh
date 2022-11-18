@@ -5,7 +5,7 @@
 
 #!/usr/bin/env bash
 
-set -e
+# set -e
 
 # install docker
 # pre-requisites
