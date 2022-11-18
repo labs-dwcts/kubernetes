@@ -42,6 +42,7 @@ Check the `kubeadm-join.txt` file on master node.
 cat ~/.kube/kubeadm-join.txt
 ```
 
+Join the cluster using the join token.
 ```
 kubeadm join [api-server-endpoint] [flags]
 ```
