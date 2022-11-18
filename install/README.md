@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/labs-dwcts/kubernetes/main/install/m
 ### curl
 
 ```
-curl -L https://raw.githubusercontent.com/labs-dwcts/kubernetes/main/install/master.sh | bash
+curl https://raw.githubusercontent.com/labs-dwcts/kubernetes/main/install/master.sh | bash
 ```
 
 ## worker node
@@ -29,7 +29,7 @@ wget -qO- https://raw.githubusercontent.com/labs-dwcts/kubernetes/main/install/w
 ### curl
 
 ```
-curl -L https://raw.githubusercontent.com/labs-dwcts/kubernetes/main/install/worker.sh | bash
+curl https://raw.githubusercontent.com/labs-dwcts/kubernetes/main/install/worker.sh | bash
 ```
 
 ### join token
