@@ -133,7 +133,10 @@ sudo systemctl restart docker
 
 
 # kubernetes master-node install complete
+echo "################################################################################"
 echo "Kubernetes worker-node install complete."
+echo "################################################################################"
+
 
 
 # install helm
