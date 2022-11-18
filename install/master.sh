@@ -156,7 +156,7 @@ sudo kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl v
 
 
 # check node status
-kubectl get nodes
+# kubectl get nodes
 kubectl get nodes -o wide
 kubectl get pods --all-namespaces
 
