@@ -31,7 +31,8 @@ sudo apt-get install -y \
     docker-ce docker-ce-cli containerd.io
 
 # add user permissions
-# sudo usermod -a -G docker $USER
+sudo chmod 666 /var/run/docker.sock
+sudo usermod -a -G docker $USER
 # newgrp docker
 
 
