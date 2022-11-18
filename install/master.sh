@@ -148,7 +148,7 @@ sudo kubeadm token create --print-join-command > ~/.kube/kubeadm-join.txt
 
 
 # kubernetes master-node install complete
-echo "Kubernetes master-node install complete"
+echo "Kubernetes master-node install complete."
 
 
 # install add-on pod network
